@@ -1,0 +1,44 @@
+.App {
+  box-sizing: border-box;
+}
+.App .main {
+  padding-left: 20px;
+}
+.App .main__input {
+  height: 40px;
+  margin-top: 50px;
+}
+.App .main__input input {
+  box-sizing: border-box;
+  height: 100%;
+  padding-left: 5px;
+  margin: 0px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: rgb(199, 199, 199);
+}
+.App .main__input button {
+  margin-left: 20px;
+  padding: 0 20px;
+  height: 100%;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(224, 179, 0);
+}
+.App .main__list ul {
+  list-style: none;
+  padding: 0px;
+}
+.App .main__list ul li {
+  display: flex;
+  align-items: center;
+}
+.App .main__list ul li input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.App .main__list ul li .done {
+  color: rgb(206, 206, 206);
+}/*# sourceMappingURL=style.css.map */
